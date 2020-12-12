@@ -12,7 +12,7 @@ COPY requirements.txt .
 
 ## Step 3:
 # Install packages from requirements.txt
-RUN pip install -U pip && pip install -r requirements.txt
+RUN pip install -r requirements.txt
 # hadolint ignore=DL3013
 
 ## Step 4:
